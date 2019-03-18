@@ -1,0 +1,219 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+figure,
+figcaption,
+nav,
+footer,
+menu {
+  margin: 0;
+  padding: 0;
+  word-break: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+  word-break: break-word;
+}
+
+address,
+em,
+i,
+b {
+  font-style: normal
+}
+
+a,
+a:hover {
+  color: #6F6F6F;
+  text-decoration: none !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  word-break: break-word;
+}
+
+fieldset,
+img {
+  border: 0
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: none;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: 16px/1.5 'PingFang SC', Helvetica, Arial;
+  outline: none
+}
+
+textarea,
+input {
+  background: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none
+}
+
+.strong {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* #app {height: 100%;} */
+
+body {
+  height: 100%;
+  word-break: break-word;
+  font: 16px/1.5;
+  /* font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', -apple-system, 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', Arial, sans-serif; */
+  font-family: Avenir Next, Calibri, 'SF Pro Text', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  color: #6F6F6F;
+  background: #F5F5F5;
+}
+
+div {
+  word-break: break-word;
+}
+
+img {
+  display: block;
+  font-size: 12px;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', -apple-system, 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', Arial, sans-serif; */
+  font-family: Avenir Next, Calibri, 'SF Pro Text', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
+.clearboth {
+  height: 0px;
+  clear: both
+}
+
+body {
+  word-break: break-word;
+  width: 100%;
+  min-height: 320px;
+  -webkit-overflow-scrolling: touch
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+::-ms-clear,
+::-ms-reveal {
+  display: none;
+}
+
+:-ms-clear,
+::-ms-reveal {
+  display: none;
+}
+
+#google_translate_element {
+  display: none;
+}
+
+.borderb {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.margint {
+  margin-top: .266667rem;
+}
+
+.noscroll,
+.noscroll body {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.reply__text img {
+  max-width: 100%;
+}
+
+.__nuxt-error-page {
+  padding: 16px !important;
+}
+
+.__nuxt-error-page .title {
+  font-size: 24px !important;
+}
+
+.__nuxt-error-page .description {
+  font-size: 14px !important;
+}
+
+.__nuxt-error-page a {
+  font-size: 14px !important;
+}
